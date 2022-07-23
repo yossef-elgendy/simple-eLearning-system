@@ -1,0 +1,224 @@
+
+
+
+
+
+.bg-web-primary{
+
+    background:  rgba(162,208,193,0.8);
+    background: linear-gradient(90deg, rgba(162,208,193,1) 0%, rgba(0,212,255,1) 100%);
+
+}
+.background-img{
+    width: 100%;
+    height: 100%;
+    background: url("../Back.jpg") rgba(22, 19, 19,1) center no-repeat;
+    background-blend-mode: overlay;
+
+}
+
+.bg-nav-primary{
+    background: #eff7e1;
+}
+
+.bg-second{
+    /*background: #f8dc81;*/
+    background: rgb(162,208,193);
+    background: linear-gradient(295deg, rgba(162,208,193,1) 0%, rgba(129,161,248,1) 100%);
+
+}
+
+.bg-first{
+    background: #214151;
+}
+
+
+.logo-img{
+    height: 30px;
+    width: 90px;
+}
+
+
+.nav-link-hover, .nav-link-hover-active{
+    text-decoration: none;
+    color:rgb(162,208,193);
+    margin-left: 10px;
+    position: relative;
+}
+
+.nav-link-hover::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 4px;
+    display: block;
+
+    background: rgb(162,208,193);
+    background: linear-gradient(295deg, rgba(162,208,193,1) 0%, rgba(129,161,248,1) 100%);
+    transition: all ease-in-out 250ms;
+}
+
+.nav-link-hover-active::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 4px;
+    display: block;
+    background: rgb(162,208,193);
+    background: linear-gradient(295deg, rgba(162,208,193,1) 0%, rgba(129,161,248,1) 100%);
+
+}
+
+
+
+.nav-link-hover:hover , .nav-link-hover-active{
+    color: rgba(129,161,248,1) !important;
+}
+
+
+
+.btn-primary-new:hover{
+    background: #f8dc64;
+    color: #100f0c;
+    border: solid 1px #f8dc64;
+}
+
+.btn-primary-new{
+    border: solid 1px #f8dc81 ;
+    color: #100f0c;
+    background: #f8dc81
+}
+
+
+.btn-cancel:hover{
+    background: #b12828;
+    color: #100f0c;
+    font-weight: 400;
+    border: solid 1px #b12828 ;
+}
+
+.btn-cancel{
+    border: solid 1px #dd4646;
+    color: #100f0c;
+    background:#dd4646
+}
+
+.btn-accept:hover{
+    background: #55bf29;
+    color: #100f0c;
+    font-weight: 400;
+    border: solid 1px #55bf29;
+}
+
+.btn-accept{
+    border: solid 1px #72e046;
+    color: #100f0c;
+    background:#72e046
+}
+
+.logo-main {
+    height: 420px;
+    width: 500px;
+}
+
+
+
+.contact-form{
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image i{
+    color: rgb(132, 229, 198);
+    border-radius: 6rem;
+    margin-top: -6%;
+
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 992px) {
+    .nav-link-hover, .nav-link-hover-active{
+        text-decoration: none;
+        color: rgb(162,208,193);
+        margin-left: 10px;
+        position: relative;
+    }
+
+
+
+    .nav-link-hover::before{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 4px;
+        display: block;
+
+        background: rgb(162,208,193);
+        background: linear-gradient(295deg, rgba(162,208,193,1) 0%, rgba(129,161,248,1) 100%);
+        transition: all ease-in-out 250ms;
+    }
+
+    .nav-link-hover-active::before{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        display: block;
+        background: rgb(162,208,193);
+        background: linear-gradient(295deg, rgba(162,208,193,1) 0%, rgba(129,161,248,1) 100%);
+
+    }
+
+    .nav-link-hover:hover::before {
+        width: 100%;
+    }
+
+    .nav-link-hover:hover , .nav-link-hover-active{
+        color: rgba(129,161,248,1) !important;
+    }
+}
